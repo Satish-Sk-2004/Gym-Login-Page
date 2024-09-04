@@ -254,7 +254,7 @@ form.sign-in-form {
 }
 .fclogo{
     height: 36px;
-    width: 120px;
+    width: 100px;
     position: relative;
     margin-top: 20px;
     cursor: pointer;
@@ -448,11 +448,21 @@ form.sign-in-form {
   .fclogo{
     height: 30px;
     width: 90px;
-    margin-top: -1%;
-    margin-left: -4%;
+    margin-top: -10px;
+    margin-left: -20px;
     transition: 2s;
   }
   .con1{
     margin-right: 10%;
+  }
+}
+
+@media (max-width: 450px) {
+  .fclogo{
+    height: 28px;
+    width: 80px;
+    margin-top: -12px;
+    margin-left: -24px;
+    transition: 2s;
   }
 }
